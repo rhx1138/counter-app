@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: sans-serif;
     text-align: center;
   }
@@ -8,4 +8,40 @@ body {
     border: none;
     background-color: #333;
     color: #fff;
-  }
+  } */
+
+
+/* add a gradient background to the body */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, rgb(239, 156, 248), rgb(88, 149, 215));
+    color: #fff;
+}
+
+/* center the app and give it a max width */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* add some basic styling to the buttons */
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* make the buttons look more like buttons when hovered */
+button:hover {
+    opacity: 0.8;
+}
+
+/* add a subtle shadow to the count element */
+#count {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
