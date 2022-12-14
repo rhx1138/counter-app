@@ -2,6 +2,10 @@
 
 A simple app that allows users to increment and decrement a counter.
 
+# Website
+
+[Counter App Website](https://counter-tool-app.netlify.app/)
+
 ## Table of Contents
 
 - [Installation](#installation)
